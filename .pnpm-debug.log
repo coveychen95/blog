@@ -1,0 +1,56 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "blog",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/coveychen95/a-weak-a-output.git"
+      },
+      "author": "",
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/coveychen95/a-weak-a-output/issues"
+      },
+      "homepage": "https://github.com/coveychen95/a-weak-a-output#readme"
+    },
+    "prefix": "/Users/sanchen/common/github/weekly-blog"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/sanchen/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/sanchen/common/github/weekly-blog/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/sanchen/common/github/weekly-blog",
+    "stage": "resolution_started"
+  },
+  "4 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "vite-press is not in the npm registry, or you have no permission to fetch it.\n\nAn authorization header was used: Bearer b8b0[hidden]",
+    "request": {
+      "authHeaderValue": "Bearer b8b012bf-67b7-42fe-8dc8-1ae62eb80290",
+      "url": "https://registry.npmjs.org/vite-press"
+    },
+    "response": {
+      "size": 0,
+      "timeout": 60000
+    },
+    "pkgName": "vite-press",
+    "pkgsStack": [],
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npmjs.org/vite-press: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "Error: GET https://registry.npmjs.org/vite-press: Not Found - 404\n    at RetryOperation._fn (/opt/homebrew/lib/node_modules/pnpm/dist/pnpm.cjs:78997:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  }
+}
