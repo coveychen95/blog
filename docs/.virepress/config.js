@@ -1,4 +1,4 @@
 module.exports = {
-  title: 'Hello VitePress',
-  description: 'Just playing around.'
+  title: '陈可为',
+  description: '为人类进步而努力！'
 }
